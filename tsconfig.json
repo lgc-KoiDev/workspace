@@ -18,7 +18,7 @@
         "external/*/src",
         "external/*/packages/core/src",
         "packages/*/src",
-        "plugins/*/src",
+        "plugins/*/src"
       ],
 
       // If you are developing a scoped plugin,
@@ -37,12 +37,12 @@
       "@koishijs/plugin-*": [
         "external/koishi/plugins/common/*/src",
         "external/koishi/plugins/*/src",
-        "external/webui/plugins/*/src",
+        "external/webui/plugins/*/src"
       ],
       "@koishijs/*": [
         "external/koishi/packages/*/src",
         "external/webui/packages/*/src",
-        "external/*/packages/core/src",
+        "external/*/packages/core/src"
       ],
       "@minatojs/driver-*": ["external/minato/packages/*/src"],
       "@minatojs/*": ["external/minato/packages/*/src"],
@@ -56,8 +56,8 @@
       // Even if you don't use it, do not delete this line,
       // as it bypasses a bug in tsconfig-path/register.
       // See: https://github.com/dividab/tsconfig-paths/issues/209
-      "*": ["packages/*/src"],
-    },
+      "*": ["packages/*/src"]
+    }
   },
-  "files": [],
+  "files": []
 }

@@ -1,1 +1,1 @@
-extends: "./.eslint.base.yml"
+extends: './.eslint.base.yml'
