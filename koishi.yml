@@ -6,7 +6,7 @@ plugins:
     ~bind: {}
     commands: {}
     help: {}
-    ~inspect: {}
+    inspect: {}
     locales: {}
     rate-limit: {}
   group:console:
@@ -28,8 +28,9 @@ plugins:
         endpoint: https://registry.koishi.chat/index.json
     sandbox: {}
     status: {}
-    ~theme-vanilla: {}
-    theme-material:m2d5au: {}
+    theme-vanilla: {}
+    wallpaper:dieh86: {}
+    ~click-colorful:96v4dv: {}
   group:storage:
     database-sqlite: {}
     assets-local: {}
@@ -39,4 +40,5 @@ plugins:
     $if: env.NODE_ENV === 'development'
     hmr:
       root: .
-  group:test: {}
+  group:test:
+    memes-api: {}

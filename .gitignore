@@ -20,3 +20,7 @@ tsconfig.tsbuildinfo
 .env
 .koishi.db
 logs
+
+meme-generator
+/cache
+/data
