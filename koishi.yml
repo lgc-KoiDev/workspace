@@ -41,4 +41,7 @@ plugins:
     hmr:
       root: .
   group:test:
-    memes-api: {}
+    memes-api:wj33e9: {}
+prefix:
+  - /
+  - ''
