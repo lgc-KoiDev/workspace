@@ -300,6 +300,27 @@
     vue-i18n "^9.2.2"
     vue-router "^4.2.0"
 
+"@koishijs/client@^5.11.0":
+  version "5.11.0"
+  resolved "https://registry.yarnpkg.com/@koishijs/client/-/client-5.11.0.tgz#38769f6e72560f89c4220621d89933de2239e6c9"
+  integrity sha512-0WD0e7VGzkK0wmKfP+qW+L47L1iidnozVIiv1Akqjbgy/Ad7jjes/EfVQim7sWuHAQR4+4JI8+N3QnzqV8uajg==
+  dependencies:
+    "@koishijs/components" "1.2.1"
+    "@maikolib/vite-plugin-yaml" "^1.0.1"
+    "@vitejs/plugin-vue" "^4.2.3"
+    "@vueuse/core" "^10.1.2"
+    cac "^6.7.14"
+    cordis "^2.8.0"
+    cosmokit "^1.4.2"
+    element-plus "2.3.4"
+    marked-vue "^1.2.3"
+    ns-require "^1.1.4"
+    sass "^1.62.1"
+    vite "^4.3.5"
+    vue "^3.3.2"
+    vue-i18n "^9.2.2"
+    vue-router "^4.2.0"
+
 "@koishijs/components@1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@koishijs/components/-/components-1.2.0.tgz#177fc8ab39501623d1903d93c800e05e3fa89970"
@@ -308,6 +329,15 @@
     "@satorijs/element" "^2.4.2"
     cosmokit "^1.4.2"
     schemastery-vue "6.0.0"
+
+"@koishijs/components@1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@koishijs/components/-/components-1.2.1.tgz#48e0a7807c8785807815e198b5d0bf8ec0358528"
+  integrity sha512-7j9/SkAbsbtsR745/4pXA7S5O1HlwQGVh4dZmqI3lV5kYZeb51hC8cI8DhRUSnXII4iUQHi2JoTjn9DLitlFmQ==
+  dependencies:
+    "@satorijs/element" "^2.4.2"
+    cosmokit "^1.4.2"
+    schemastery-vue "6.1.0"
 
 "@koishijs/core@4.13.1":
   version "4.13.1"
@@ -389,6 +419,15 @@
 "@koishijs/plugin-console@5.11.0":
   version "5.11.0"
   resolved "https://registry.npmmirror.com/@koishijs/plugin-console/-/plugin-console-5.11.0.tgz#4b13640321b936ceec993ca3989d3565606dfc44"
+  integrity sha512-kPTjHANPn/BM/J9Z2ZhKNdTcz8omkWZW4yGsFDL1JXFmlKMEr88TxTigCSHjRFjyK0B2icVMopUj+7Fakcxskw==
+  dependencies:
+    open "^8.4.2"
+    uuid "^8.3.2"
+    ws "^8.13.0"
+
+"@koishijs/plugin-console@^5.11.0":
+  version "5.11.0"
+  resolved "https://registry.yarnpkg.com/@koishijs/plugin-console/-/plugin-console-5.11.0.tgz#4b13640321b936ceec993ca3989d3565606dfc44"
   integrity sha512-kPTjHANPn/BM/J9Z2ZhKNdTcz8omkWZW4yGsFDL1JXFmlKMEr88TxTigCSHjRFjyK0B2icVMopUj+7Fakcxskw==
   dependencies:
     open "^8.4.2"
@@ -3900,6 +3939,13 @@ schemastery-vue@6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/schemastery-vue/-/schemastery-vue-6.0.0.tgz#bed0258384b691f4300386b8090e612fab4652d2"
   integrity sha512-uRIWH2ElAUtq4dimNBMT6VqAoUFw2XhiSg/BsiD18jxb9Y/uzqeJlRY7qhnDUhhG+hZGMAZr1uNc24hJ9djlpA==
+  dependencies:
+    schemastery "^3.9.0"
+
+schemastery-vue@6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/schemastery-vue/-/schemastery-vue-6.1.0.tgz#f9aa1b203d50280205e125e8bd49976ddca38a19"
+  integrity sha512-NVlpevryPtrecxRtdetQnNnceCNDKVAY37DY9EjF3HiFBlnCsnXvV/D8rfvtuoJx3uB77I3k9Js46N2h80ucMg==
   dependencies:
     schemastery "^3.9.0"
 

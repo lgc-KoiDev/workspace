@@ -9,8 +9,6 @@ extends:
   # - plugin:react/recommended
   - prettier
   - plugin:@typescript-eslint/recommended
-  - plugin:import/recommended
-  - plugin:import/typescript
 
 overrides: []
 
@@ -18,7 +16,10 @@ parser: '@typescript-eslint/parser'
 
 parserOptions:
   ecmaVersion: latest
-  project: '*/**/tsconfig.json'
+  project:
+    - './tsconfig.json'
+    - './external/*/tsconfig.json'
+    - './external/*/client/tsconfig.json'
 
 rules:
   camelcase: 'off'
@@ -33,6 +34,7 @@ rules:
 
   import/no-named-default: 'off'
   import/prefer-default-export: 'off'
+  import/no-extraneous-dependencies: 'off'
 
   '@typescript-eslint/ban-types':
     - error
@@ -46,3 +48,4 @@ rules:
   '@typescript-eslint/no-var-requires': 'off'
   '@typescript-eslint/triple-slash-reference': 'off'
   '@typescript-eslint/naming-convention': 'off'
+  '@typescript-eslint/no-namespace': 'off'

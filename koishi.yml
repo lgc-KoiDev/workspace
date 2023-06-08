@@ -15,6 +15,7 @@ plugins:
     config: {}
     console:
       open: true
+      devMode: true
     dataview: {}
     desktop:
       $if: env.KOISHI_AGENT?.includes('Desktop')
@@ -41,7 +42,9 @@ plugins:
     hmr:
       root: .
   group:test:
-    memes-api:wj33e9: {}
+    memes-api:rqx7jk:
+      requestConfig:
+        endpoint: http://127.0.0.1:23333
 prefix:
   - /
   - ''
