@@ -24,3 +24,5 @@ logs
 meme-generator
 /cache
 /data
+
+tsconfig.temp.json

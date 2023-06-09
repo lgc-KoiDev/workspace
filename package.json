@@ -33,6 +33,7 @@
     "build": "yakumo build",
     "bump": "yakumo version",
     "dep": "yakumo upgrade",
+    "prepublish": "yakumo build",
     "pub": "yakumo publish",
     "dev": "cross-env NODE_ENV=development koishi start -r esbuild-register -r yml-register",
     "start": "koishi start"
