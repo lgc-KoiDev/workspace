@@ -1,5 +1,8 @@
 port: 5140
 maxPort: 5149
+prefix:
+  - '!'
+  - ！
 plugins:
   group:basic:
     ~admin: {}
@@ -14,7 +17,6 @@ plugins:
     ~auth: {}
     config: {}
     console:
-      open: true
       devMode: true
     dataview: {}
     desktop:
@@ -30,8 +32,7 @@ plugins:
     sandbox: {}
     status: {}
     theme-vanilla: {}
-    wallpaper:dieh86: {}
-    ~click-colorful:96v4dv: {}
+    wallpaper: {}
   group:storage:
     database-sqlite: {}
     assets-local: {}
@@ -44,10 +45,7 @@ plugins:
     $if: env.NODE_ENV === 'development'
     hmr:
       root: .
-  group:test:
-    memes-api:rqx7jk:
+  group:dev:
+    memes-api:
       requestConfig:
         endpoint: http://127.0.0.1:23333
-prefix:
-  - '!'
-  - ！
