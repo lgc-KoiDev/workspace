@@ -1,51 +1,53 @@
-port: 5140
-maxPort: 5149
 prefix:
   - '!'
   - ！
 plugins:
+  group:server:
+    server:cl57an:
+      port: 5140
+      maxPort: 5149
   group:basic:
-    ~admin: {}
-    ~bind: {}
-    commands: {}
-    help: {}
-    inspect: {}
-    locales: {}
-    rate-limit: {}
+    ~admin:3mzvy7: {}
+    ~bind:gpodg0: {}
+    commands:42ed33: {}
+    help:3eo601: {}
+    ~inspect:9fnwco: {}
+    locales:ntilug: {}
+    rate-limit:4a0h46: {}
+    telemetry:sv8jdl: {}
   group:console:
-    analytics: {}
-    ~auth: {}
-    config: {}
-    console:
-      devMode: true
-    dataview: {}
-    desktop:
-      $if: env.KOISHI_AGENT?.includes('Desktop')
-    ~explorer: {}
-    logger: {}
-    insight: {}
-    market:
-      registry:
-        endpoint: https://registry.npmmirror.com
+    actions:xdxijm: {}
+    analytics:xv6joc: {}
+    config:co3r4g: {}
+    console:ak2ihl: {}
+    dataview:fxw45d: {}
+    explorer:oa8pod: {}
+    logger:bw51f2: {}
+    insight:xdumsn: {}
+    market:0ui04s:
       search:
-        endpoint: https://registry.koishi.chat/index.json
-    sandbox: {}
-    status: {}
-    theme-vanilla: {}
-    wallpaper: {}
+        endpoint: https://registry.koishi.t4wefan.pub/index.json
+    notifier:4il40k: {}
+    oobe:qxntwh: {}
+    sandbox:qvnvhi: {}
+    status:5pj6nx: {}
+    theme-vanilla:0ecpao: {}
   group:storage:
-    database-sqlite: {}
-    assets-local: {}
+    database-sqlite:w8nyjf: {}
+    assets-local:0oiy08: {}
   group:adapter:
-    ~adapter-onebot:
-      selfId: '3436954762'
+    adapter-onebot:w6mqzg:
+      selfId: ${{ env.ONEBOT_SELF_ID }}
       protocol: ws
-      endpoint: ws://127.0.0.1:54345
+      endpoint: ${{ env.ONEBOT_WS_ENDPOINT }}
+      token: ${{ env.ONEBOT_ACCESS_TOKEN }}
   group:develop:
     $if: env.NODE_ENV === 'development'
-    hmr:
+    hmr:8qs3hw:
       root: .
   group:dev:
-    memes-api:
+    memes-api:g5bmn2:
       requestConfig:
         endpoint: http://127.0.0.1:23333
+      autoUseSenderAvatarWhenOneLeft: false
+      autoUseSenderAvatarWhenOnlyOne: false
