@@ -49,3 +49,4 @@ plugins:
     memes-api:g5bmn2:
       requestConfig:
         endpoint: http://127.0.0.1:23333
+      autoUseSenderAvatarWhenOnlyOne: false
