@@ -17,6 +17,7 @@ plugins:
     locales:ntilug: {}
     rate-limit:4a0h46: {}
     telemetry:sv8jdl: {}
+    proxy-agent:bjapjp: {}
   group:console:
     actions:xdxijm: {}
     analytics:xv6joc: {}
@@ -35,7 +36,8 @@ plugins:
     status:5pj6nx: {}
     theme-vanilla:0ecpao: {}
   group:storage:
-    database-sqlite:w8nyjf: {}
+    database-sqlite:w8nyjf:
+      path: data/koishi.db
     assets-local:0oiy08: {}
   group:adapter:
     adapter-onebot:w6mqzg:
