@@ -1,6 +1,8 @@
 prefix:
   - '!'
   - ！
+logger:
+  levels: 3
 plugins:
   group:server:
     server:cl57an:
