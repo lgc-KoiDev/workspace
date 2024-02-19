@@ -10,7 +10,7 @@ tsconfig.tsbuildinfo
 .eslintcache
 .DS_Store
 .idea
-.vscode
+# .vscode
 .vite
 *.suo
 *.ntvs*
@@ -21,8 +21,8 @@ tsconfig.tsbuildinfo
 .koishi.db
 logs
 
+tsconfig.temp.json
 meme-generator
 /cache
 /data
-
-tsconfig.temp.json
+/external/adapter-onebot
