@@ -6275,6 +6275,7 @@ __metadata:
     koishi-plugin-adapter-onebot: "npm:^6.4.1"
     koishi-plugin-assets-local: "npm:^3.2.1"
     koishi-plugin-dataview: "npm:^2.6.6"
+    koishi-plugin-memes-api: "workspace:^"
     koishi-plugin-puppeteer: "npm:^3.8.1"
     koishi-plugin-rate-limit: "npm:^2.0.1"
     koishi-plugin-telemetry: "npm:^0.0.2"
@@ -6337,7 +6338,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"koishi-plugin-memes-api@workspace:external/memes-api":
+"koishi-plugin-example@workspace:external/example":
+  version: 0.0.0-use.local
+  resolution: "koishi-plugin-example@workspace:external/example"
+  peerDependencies:
+    koishi: ^4.17.1
+  languageName: unknown
+  linkType: soft
+
+"koishi-plugin-memes-api@workspace:^, koishi-plugin-memes-api@workspace:external/memes-api":
   version: 0.0.0-use.local
   resolution: "koishi-plugin-memes-api@workspace:external/memes-api"
   peerDependencies:
