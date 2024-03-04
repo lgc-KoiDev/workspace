@@ -37,16 +37,16 @@ plugins:
     sandbox:qvnvhi: {}
     status:5pj6nx: {}
     theme-vanilla:0ecpao: {}
+    theme-doki:ev4nkl: {}
   group:storage:
     database-sqlite:w8nyjf:
       path: data/koishi.db
     assets-local:0oiy08: {}
   group:adapter:
     adapter-onebot:w6mqzg:
-      selfId: ${{ env.ONEBOT_SELF_ID }}
+      selfId: '3436954762'
       protocol: ws
-      endpoint: ${{ env.ONEBOT_WS_ENDPOINT }}
-      token: ${{ env.ONEBOT_ACCESS_TOKEN }}
+      endpoint: ws://127.0.0.1:8000
   group:develop:
     $if: env.NODE_ENV === 'development'
     hmr:8qs3hw:

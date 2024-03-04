@@ -20,6 +20,7 @@ parserOptions:
     - './tsconfig.json'
     - './external/*/tsconfig.json'
     - './external/*/client/tsconfig.json'
+    - './external/*/scripts/tsconfig.json'
 
 rules:
   camelcase: 'off'

@@ -54,7 +54,7 @@
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react": "^7.34.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "tsx": "^4.7.1",
     "typescript": "^5.3.3",
@@ -99,6 +99,7 @@
     "koishi-plugin-puppeteer": "^3.8.2",
     "koishi-plugin-rate-limit": "^2.0.1",
     "koishi-plugin-telemetry": "^0.0.2",
+    "koishi-plugin-theme-doki": "workspace:^",
     "koishi-plugin-theme-vanilla": "^1.0.6"
   }
 }
