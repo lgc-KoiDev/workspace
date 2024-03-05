@@ -38,6 +38,7 @@ plugins:
     status:5pj6nx: {}
     theme-vanilla:0ecpao: {}
     theme-doki:ev4nkl: {}
+    ~wallpaper:i1yma7: {}
   group:storage:
     database-sqlite:w8nyjf:
       path: data/koishi.db

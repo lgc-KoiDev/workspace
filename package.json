@@ -100,6 +100,7 @@
     "koishi-plugin-rate-limit": "^2.0.1",
     "koishi-plugin-telemetry": "^0.0.2",
     "koishi-plugin-theme-doki": "workspace:^",
-    "koishi-plugin-theme-vanilla": "^1.0.6"
+    "koishi-plugin-theme-vanilla": "^1.0.6",
+    "koishi-plugin-wallpaper": "1.0.4"
   }
 }
