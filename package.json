@@ -70,6 +70,7 @@
   },
   "dependencies": {
     "@koishijs/plugin-actions": "^0.0.2",
+    "@koishijs/plugin-adapter-satori": "^1.0.9",
     "@koishijs/plugin-admin": "^2.0.0-beta.4",
     "@koishijs/plugin-analytics": "^2.0.6",
     "@koishijs/plugin-bind": "^1.5.1",
@@ -79,6 +80,7 @@
     "@koishijs/plugin-database-sqlite": "^4.0.0",
     "@koishijs/plugin-explorer": "^1.5.1",
     "@koishijs/plugin-help": "^2.4.3",
+    "@koishijs/plugin-hmr": "^1.2.8",
     "@koishijs/plugin-insight": "^3.5.1",
     "@koishijs/plugin-inspect": "^1.1.4",
     "@koishijs/plugin-locales": "^2.5.3",
@@ -101,6 +103,6 @@
     "koishi-plugin-telemetry": "^0.0.2",
     "koishi-plugin-theme-doki": "workspace:^",
     "koishi-plugin-theme-vanilla": "^1.0.6",
-    "koishi-plugin-wallpaper": "1.0.4"
+    "koishi-plugin-wallpaper": "^1.0.4"
   }
 }

@@ -1187,6 +1187,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@koishijs/plugin-adapter-satori@npm:1.0.9":
+  version: 1.0.9
+  resolution: "@koishijs/plugin-adapter-satori@npm:1.0.9"
+  dependencies:
+    "@satorijs/adapter-satori": "npm:^1.0.9"
+  peerDependencies:
+    koishi: ^4.17.1
+  checksum: 10c0/056d623b29529424210e30ee2c6b0f0db8b581ed2554f9dad9bd468e076adf6d6fadcd3841c75f319b535046a16fdc1be2d4f4e5d4b0a217c20fd8705a023496
+  languageName: node
+  linkType: hard
+
+"@koishijs/plugin-adapter-telegram@npm:4.4.0":
+  version: 4.4.0
+  resolution: "@koishijs/plugin-adapter-telegram@npm:4.4.0"
+  dependencies:
+    "@satorijs/adapter-telegram": "npm:^4.4.0"
+  peerDependencies:
+    koishi: ^4.17.0
+  checksum: 10c0/b9a2b12955bbfc7470f83576837a8d268b4c88afa253b71cc572858bc692aa3af730f2a14fd0d8d39e79c23bb5f4e4152a00106b7bb4769539ec7ef307ea9938
+  languageName: node
+  linkType: hard
+
 "@koishijs/plugin-admin@npm:^2.0.0-beta.4":
   version: 2.0.0-beta.4
   resolution: "@koishijs/plugin-admin@npm:2.0.0-beta.4"
@@ -1939,6 +1961,26 @@ __metadata:
     rollup:
       optional: true
   checksum: 10c0/c7bed15711f942d6fdd3470fef4105b73991f99a478605e13d41888963330a6f9e32be37e6ddb13f012bc7673ff5e54f06f59fd47109436c1c513986a8a7612d
+  languageName: node
+  linkType: hard
+
+"@satorijs/adapter-satori@npm:^1.0.9":
+  version: 1.0.9
+  resolution: "@satorijs/adapter-satori@npm:1.0.9"
+  peerDependencies:
+    "@satorijs/satori": ^3.6.1
+  checksum: 10c0/884a2036e0aa6ea1162addcb657706cc0cdee064e276e1f107fd5404a78506e5b1f05957b598bc2d6f48a7d695dccd565b882b04ab6435c914471b3628de5a5f
+  languageName: node
+  linkType: hard
+
+"@satorijs/adapter-telegram@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "@satorijs/adapter-telegram@npm:4.4.0"
+  dependencies:
+    file-type: "npm:^16.5.4"
+  peerDependencies:
+    "@satorijs/satori": ^3.6.0
+  checksum: 10c0/affdbbc436926b165acde4a8eef61f50f0874b2058255f93b0eb513c3c46c2b74c51cc3a315272fdf921a2bd7c60a1a6396310dff8ddc66825605b72140494a8
   languageName: node
   linkType: hard
 
@@ -6808,6 +6850,8 @@ __metadata:
   dependencies:
     "@koishijs/client": "npm:^5.28.0"
     "@koishijs/plugin-actions": "npm:^0.0.2"
+    "@koishijs/plugin-adapter-satori": "npm:1.0.9"
+    "@koishijs/plugin-adapter-telegram": "npm:4.4.0"
     "@koishijs/plugin-admin": "npm:^2.0.0-beta.4"
     "@koishijs/plugin-analytics": "npm:^2.0.6"
     "@koishijs/plugin-bind": "npm:^1.5.1"
@@ -6858,6 +6902,7 @@ __metadata:
     koishi-plugin-telemetry: "npm:^0.0.2"
     koishi-plugin-theme-doki: "workspace:^"
     koishi-plugin-theme-vanilla: "npm:^1.0.6"
+    koishi-plugin-wallpaper: "npm:1.0.4"
     tsx: "npm:^4.7.1"
     typescript: "npm:^5.3.3"
     yakumo: "npm:^1.0.0-beta.9"
@@ -6984,7 +7029,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"koishi-plugin-wallpaper@npm:^1.0.4":
+"koishi-plugin-wallpaper@npm:1.0.4, koishi-plugin-wallpaper@npm:^1.0.4":
   version: 1.0.4
   resolution: "koishi-plugin-wallpaper@npm:1.0.4"
   dependencies:

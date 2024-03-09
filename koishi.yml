@@ -5,12 +5,14 @@ logger:
   levels: 3
 plugins:
   group:server:
+    $collapsed: true
     server:cl57an:
       port: 5140
       maxPort: 5149
-    server-satori:09201d:
+    ~server-satori:09201d:
       token: '114514'
   group:basic:
+    $collapsed: true
     ~admin:3mzvy7: {}
     ~bind:gpodg0: {}
     commands:42ed33: {}
@@ -21,6 +23,7 @@ plugins:
     telemetry:sv8jdl: {}
     proxy-agent:bjapjp: {}
   group:console:
+    $collapsed: true
     actions:xdxijm: {}
     analytics:xv6joc: {}
     config:co3r4g: {}
@@ -37,23 +40,21 @@ plugins:
     sandbox:qvnvhi: {}
     status:5pj6nx: {}
     theme-vanilla:0ecpao: {}
-    theme-doki:ev4nkl: {}
     ~wallpaper:i1yma7: {}
   group:storage:
+    $collapsed: true
     database-sqlite:w8nyjf:
       path: data/koishi.db
     assets-local:0oiy08: {}
   group:adapter:
-    adapter-onebot:w6mqzg:
-      selfId: '3436954762'
-      protocol: ws
-      endpoint: ws://127.0.0.1:8000
+    adapter-satori:ql4o4e:
+      endpoint: ${{ env.SATORI_ENDPOINT }}
+      token: ${{ env.SATORI_TOKEN }}
   group:develop:
-    $if: env.NODE_ENV === 'development'
     hmr:8qs3hw:
-      root: .
-  group:dev:
-    memes-api:g5bmn2:
-      requestConfig:
-        endpoint: http://127.0.0.1:23333
-      autoUseSenderAvatarWhenOnlyOne: false
+      $if: env.NODE_ENV === 'development'
+      root:
+        - .
+    ~memes-api:g5bmn2:
+      token: '114514'
+    theme-doki:ev4nkl: {}

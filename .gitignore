@@ -5,7 +5,7 @@ dist
 /temp
 # external
 
-.env
+# .env
 .env.local
 
 .pnp.*
