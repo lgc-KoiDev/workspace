@@ -16,6 +16,7 @@
     "external/*/packages/*",
     "external/*/plugins/*",
     "external/satori/adapters/*",
+    "external/satori/packages/*",
     "external/koishi/plugins/*",
     "external/koishi/plugins/database/*",
     "packages/*",
