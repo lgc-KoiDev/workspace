@@ -9,8 +9,6 @@ plugins:
     server:cl57an:
       port: 5140
       maxPort: 5149
-    ~server-satori:09201d:
-      token: '114514'
   group:basic:
     $collapsed: true
     ~admin:3mzvy7: {}
@@ -55,6 +53,7 @@ plugins:
       $if: env.NODE_ENV === 'development'
       root:
         - .
-    ~memes-api:g5bmn2:
-      token: '114514'
+    memes-api:g5bmn2:
+      requestConfig:
+        endpoint: ${{ env.MEMES_API_ENDPOINT }}
     theme-doki:ev4nkl: {}
