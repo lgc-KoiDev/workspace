@@ -7,6 +7,11 @@
         - client
       clean:
         - tsc --clean
+  id: 0efn93
 - name: yakumo-esbuild
+  id: f4k9km
 - name: yakumo-tsc
+  id: 9gko9c
 - name: '@koishijs/client/lib'
+  id: 4ktm4r
+- name: yakumo/upgrade
