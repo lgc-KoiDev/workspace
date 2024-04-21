@@ -6,3 +6,7 @@
     path = external/theme-doki
     branch = master
     url = https://github.com/lgc2333/koishi-plugin-theme-doki.git
+[submodule "dicexp"]
+    path = external/dicexp
+    branch = master
+    url = https://github.com/lgc2333/koishi-plugin-dicexp.git

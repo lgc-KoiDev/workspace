@@ -57,3 +57,4 @@ plugins:
       requestConfig:
         endpoint: ${{ env.MEMES_API_ENDPOINT }}
     theme-doki:ev4nkl: {}
+    dicexp:4ub84h: {}

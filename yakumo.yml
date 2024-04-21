@@ -15,3 +15,5 @@
 - name: '@koishijs/client/lib'
   id: 4ktm4r
 - name: yakumo/upgrade
+  id: ebb9wv
+- name: yakumo/publish
