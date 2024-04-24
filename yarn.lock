@@ -5317,6 +5317,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"esm-seedrandom@npm:@lgcnpm/esm-seedrandom@^3.0.6":
+  version: 3.0.6
+  resolution: "@lgcnpm/esm-seedrandom@npm:3.0.6"
+  checksum: 10c0/16645df47c7b3c2988b3e024afee909c4e38a430e4e871e5d70164c3a0e50fa3d85ec9b6e47a02a4be7716b037385080cce2bfb1e620d7fabfa0e67613adb662
+  languageName: node
+  linkType: hard
+
 "espree@npm:^9.6.0, espree@npm:^9.6.1":
   version: 9.6.1
   resolution: "espree@npm:9.6.1"
@@ -6891,6 +6898,7 @@ __metadata:
     "@lezer/common": "npm:^1.2.1"
     "@lezer/highlight": "npm:^1.2.0"
     "@lezer/lr": "npm:^1.4.0"
+    esm-seedrandom: "npm:@lgcnpm/esm-seedrandom@^3.0.6"
     web-worker: "npm:^1.3.0"
   peerDependencies:
     koishi: ^4.17.4
