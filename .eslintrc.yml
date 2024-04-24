@@ -17,10 +17,7 @@ parser: '@typescript-eslint/parser'
 parserOptions:
   ecmaVersion: latest
   project:
-    - './tsconfig.json'
-    - './external/*/tsconfig.json'
-    - './external/*/client/tsconfig.json'
-    - './external/*/scripts/tsconfig.json'
+    - './**/tsconfig.json'
 
 rules:
   camelcase: 'off'
