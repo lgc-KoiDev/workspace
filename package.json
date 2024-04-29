@@ -37,7 +37,6 @@
     "start": "koishi start"
   },
   "devDependencies": {
-    "@cordisjs/eslint-config": "^1.0.4",
     "@koishijs/client": "^5.28.3",
     "@koishijs/plugin-hmr": "^1.2.9",
     "@koishijs/scripts": "^4.5.2",
@@ -49,6 +48,9 @@
     "esbuild": "^0.18.20",
     "esbuild-register": "npm:@shigma/esbuild-register@^1.1.1",
     "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-n": "^16.6.2",
@@ -95,7 +97,7 @@
     "koishi": "^4.17.4",
     "koishi-plugin-adapter-onebot": "^6.5.3",
     "koishi-plugin-assets-local": "^3.3.0",
-    "koishi-plugin-cron": "^3.1.0",
+    "koishi-plugin-cron": "3.1.0",
     "koishi-plugin-dataview": "^2.7.4",
     "koishi-plugin-memes-api": "workspace:^",
     "koishi-plugin-puppeteer": "^3.8.4",

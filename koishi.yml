@@ -20,6 +20,7 @@ plugins:
     rate-limit:4a0h46: {}
     telemetry:sv8jdl: {}
     proxy-agent:bjapjp: {}
+    cron:ffti05: {}
   group:console:
     $collapsed: true
     actions:xdxijm: {}
@@ -58,3 +59,19 @@ plugins:
         endpoint: ${{ env.MEMES_API_ENDPOINT }}
     theme-doki:ev4nkl: {}
     dicexp:4ub84h: {}
+    memebox:2f2d81:
+      origins:
+        - identifier: koishi
+          displayName: Koishi Meme
+          shortcuts:
+            - koishi-meme
+            - koishi草图
+          requestConfig:
+            endpoint: https://memes.none.bot/
+        - identifier: nonebot
+          displayName: NoneMeme
+          shortcuts:
+            - nonememe
+            - nb草图
+          requestConfig:
+            endpoint: https://nonememe.icu/

@@ -18,10 +18,7 @@ rules:
   lines-between-class-members:
     - error
     - enforce:
-        - blankLine: never
-          prev: field
-          next: field
         - blankLine: always
           prev: '*'
-          next: '*'
+          next: method
   indent: off

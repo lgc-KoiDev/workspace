@@ -10,3 +10,7 @@
     path = external/dicexp
     branch = master
     url = https://github.com/lgc2333/koishi-plugin-dicexp.git
+[submodule "memebox"]
+    path = external/memebox
+    branch = master
+    url = https://github.com/lgc2333/koishi-plugin-memebox.git
