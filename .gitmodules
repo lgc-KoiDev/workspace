@@ -14,3 +14,7 @@
     path = external/memebox
     branch = master
     url = https://github.com/lgc2333/koishi-plugin-memebox.git
+[submodule "isekai-tensei"]
+    path = external/isekai-tensei
+    branch = master
+    url = https://github.com/lgc2333/koishi-plugin-isekai-tensei.git
