@@ -424,6 +424,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@cordisjs/element@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "@cordisjs/element@npm:0.1.0"
+  dependencies:
+    cosmokit: "npm:^1.6.2"
+  checksum: 10c0/85e70fab8f463beda4dd0ea84795f2218b16945f484ea672471600fdaade09f69c9f5caac88c86ca6280dcd3536e3df53c2f76563c09b1f9bcf4327ba0a00e8b
+  languageName: node
+  linkType: hard
+
 "@cordisjs/loader@npm:^0.10.0":
   version: 0.10.0
   resolution: "@cordisjs/loader@npm:0.10.0"
@@ -6782,6 +6791,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "koishi-dev@workspace:."
   dependencies:
+    "@cordisjs/element": "npm:^0.1.0"
     "@koishijs/client": "npm:^5.28.4"
     "@koishijs/plugin-actions": "npm:^0.0.2"
     "@koishijs/plugin-adapter-satori": "npm:^1.2.0"
@@ -6921,7 +6931,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "koishi-plugin-isekai-tensei@workspace:external/isekai-tensei"
   dependencies:
-    "@satorijs/element": "npm:^3.1.7"
+    "@cordisjs/element": "npm:^0.1.0"
     "@types/seedrandom": "npm:^3"
     seedrandom: "npm:^3.0.5"
     semaphore-promise: "npm:^1.4.2"
