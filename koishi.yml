@@ -4,6 +4,7 @@ prefix:
 logger:
   levels: 3
 plugins:
+  http:1jgr24: {}
   group:server:
     $collapsed: true
     server:cl57an:
@@ -75,3 +76,4 @@ plugins:
             - nb草图
           requestConfig:
             endpoint: https://nonememe.icu/
+    isekai-tensei:6ofdxx: {}

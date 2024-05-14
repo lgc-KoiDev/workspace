@@ -6788,6 +6788,7 @@ __metadata:
     "@koishijs/plugin-explorer": "npm:^1.5.1"
     "@koishijs/plugin-help": "npm:^2.4.3"
     "@koishijs/plugin-hmr": "npm:^1.2.9"
+    "@koishijs/plugin-http": "npm:^0.4.2"
     "@koishijs/plugin-insight": "npm:^3.5.1"
     "@koishijs/plugin-inspect": "npm:^1.1.5"
     "@koishijs/plugin-locales": "npm:^2.5.3"
@@ -6911,8 +6912,13 @@ __metadata:
 "koishi-plugin-isekai-tensei@workspace:external/isekai-tensei":
   version: 0.0.0-use.local
   resolution: "koishi-plugin-isekai-tensei@workspace:external/isekai-tensei"
+  dependencies:
+    semaphore-promise: "npm:^1.4.2"
   peerDependencies:
+    "@koishijs/plugin-notifier": ^1.2.0
+    cosmokit: ^1.6.2
     koishi: ^4.17.6
+    koishi-plugin-puppeteer: ^3.8.4
   languageName: unknown
   linkType: soft
 
