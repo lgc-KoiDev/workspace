@@ -4,7 +4,6 @@ prefix:
 logger:
   levels: 3
 plugins:
-  http:1jgr24: {}
   group:server:
     $collapsed: true
     server:cl57an:
@@ -22,6 +21,7 @@ plugins:
     telemetry:sv8jdl: {}
     proxy-agent:bjapjp: {}
     cron:ffti05: {}
+    http:1jgr24: {}
   group:console:
     $collapsed: true
     actions:xdxijm: {}
@@ -47,9 +47,13 @@ plugins:
       path: data/koishi.db
     assets-local:0oiy08: {}
   group:adapter:
+    $collapsed: true
     adapter-satori:ql4o4e:
       endpoint: ${{ env.SATORI_ENDPOINT }}
       token: ${{ env.SATORI_TOKEN }}
+  group:5afehn:
+    puppeteer:jmmj4s: {}
+    $label: 3rd-service
   group:develop:
     hmr:8qs3hw:
       $if: env.NODE_ENV === 'development'
@@ -60,20 +64,8 @@ plugins:
         endpoint: ${{ env.MEMES_API_ENDPOINT }}
     theme-doki:ev4nkl: {}
     dicexp:4ub84h: {}
-    memebox:2f2d81:
-      origins:
-        - identifier: koishi
-          displayName: Koishi Meme
-          shortcuts:
-            - koishi-meme
-            - koishi草图
-          requestConfig:
-            endpoint: https://memes.none.bot/
-        - identifier: nonebot
-          displayName: NoneMeme
-          shortcuts:
-            - nonememe
-            - nb草图
-          requestConfig:
-            endpoint: https://nonememe.icu/
-    isekai-tensei:6ofdxx: {}
+    memebox:2f2d81: {}
+    isekai-tensei:6ofdxx:
+      requestConfig:
+        endpoint: >-
+          https://raw.githubusercontent.com/lgc2333/koishi-plugin-isekai-tensei/master/res/
