@@ -34,10 +34,13 @@
     "dep": "yakumo upgrade",
     "pub": "yakumo publish",
     "dev": "cross-env NODE_ENV=development koishi start -r esbuild-register -r yml-register",
-    "start": "koishi start"
+    "start": "koishi start",
+    "format": "prettier -cw .",
+    "lint": "eslint \"**/*.{js,ts}\""
   },
   "devDependencies": {
     "@cordisjs/element": "^0.1.0",
+    "@cordisjs/eslint-config": "^1.1.1",
     "@koishijs/client": "^5.28.4",
     "@koishijs/plugin-hmr": "^1.2.9",
     "@koishijs/scripts": "^4.5.2",
