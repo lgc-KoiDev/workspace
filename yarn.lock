@@ -7149,6 +7149,7 @@ __metadata:
   dependencies:
     "@cordisjs/element": "npm:^0.1.0"
     "@types/seedrandom": "npm:^3"
+    koishi-plugin-puppeteer: "npm:^3.8.4"
     seedrandom: "npm:^3.0.5"
     semaphore-promise: "npm:^1.4.2"
   peerDependencies:
@@ -7156,7 +7157,6 @@ __metadata:
     "@koishijs/plugin-notifier": ^1.2.0
     cosmokit: ^1.6.2
     koishi: ^4.17.6
-    koishi-plugin-puppeteer: ^3.8.4
   languageName: unknown
   linkType: soft
 
