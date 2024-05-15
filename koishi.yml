@@ -69,3 +69,4 @@ plugins:
       requestConfig:
         endpoint: >-
           https://raw.githubusercontent.com/lgc2333/koishi-plugin-isekai-tensei/master/res/
+    image-tools:ewfxjo: {}

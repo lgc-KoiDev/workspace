@@ -2458,6 +2458,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/omggif@npm:^1":
+  version: 1.0.5
+  resolution: "@types/omggif@npm:1.0.5"
+  checksum: 10c0/bbe5485b487e0deb47e95e874dca0f6b124d3647b95699a0eab8b2c5e72db0e3514408736a523d0b029c44f4db4ba23aaef67c6f563ca4a74f4bf37e78277b15
+  languageName: node
+  linkType: hard
+
 "@types/prop-types@npm:*":
   version: 15.7.12
   resolution: "@types/prop-types@npm:15.7.12"
@@ -6305,6 +6312,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"image-in-browser@npm:^2.6.0":
+  version: 2.6.0
+  resolution: "image-in-browser@npm:2.6.0"
+  dependencies:
+    uzip: "npm:^0.20201231.0"
+  checksum: 10c0/01933853a9e52045ebe3adcb7a7e6f25a0ccd02bf285f41da917432e3f6fb75c8070ec37d1e20336e5f2e5e29a3febb2f63cc8872e8b750414e1eb106413ae76
+  languageName: node
+  linkType: hard
+
 "immutable@npm:^4.0.0":
   version: 4.3.5
   resolution: "immutable@npm:4.3.5"
@@ -7133,6 +7149,19 @@ __metadata:
     "@lezer/lr": "npm:^1.4.0"
     esm-seedrandom: "npm:@lgcnpm/esm-seedrandom@^3.0.6"
     web-worker: "npm:^1.3.0"
+  peerDependencies:
+    koishi: ^4.17.6
+  languageName: unknown
+  linkType: soft
+
+"koishi-plugin-image-tools@workspace:external/image-tools":
+  version: 0.0.0-use.local
+  resolution: "koishi-plugin-image-tools@workspace:external/image-tools"
+  dependencies:
+    "@koishijs/canvas": "npm:^0.2.0"
+    "@types/omggif": "npm:^1"
+    image-in-browser: "npm:^2.6.0"
+    omggif: "npm:^1.0.10"
   peerDependencies:
     koishi: ^4.17.6
   languageName: unknown
@@ -8029,6 +8058,13 @@ __metadata:
     node-fetch-native: "npm:^1.6.3"
     ufo: "npm:^1.5.3"
   checksum: 10c0/39855005c3f8aa11c11d3a3b0c4366b67d316da58633f4cf5d4a5af0a61495fd68699f355e70deda70355ead25f27b41c3bde2fdd1d24ce3f85ac79608dd8677
+  languageName: node
+  linkType: hard
+
+"omggif@npm:^1.0.10":
+  version: 1.0.10
+  resolution: "omggif@npm:1.0.10"
+  checksum: 10c0/5ddb6959555bf16ac93ee8724a6f600b0e97e77855515af9df0f657c69ebe0eb7d769763fdc4765f888827e4e64ca71ebeaf7255c7f51058e4bba5cc7950fe8e
   languageName: node
   linkType: hard
 
@@ -9738,6 +9774,13 @@ __metadata:
   bin:
     uuid: dist/bin/uuid
   checksum: 10c0/bcbb807a917d374a49f475fae2e87fdca7da5e5530820ef53f65ba1d12131bd81a92ecf259cc7ce317cbe0f289e7d79fdfebcef9bfa3087c8c8a2fa304c9be54
+  languageName: node
+  linkType: hard
+
+"uzip@npm:^0.20201231.0":
+  version: 0.20201231.0
+  resolution: "uzip@npm:0.20201231.0"
+  checksum: 10c0/44b261b20ac7e4d71e7099d7a7c4885626044be61cd246e76cf548fa444a4a37c301d1a683679168bc29c91d2ec81d62b8c1c75217a26b37f6ce35223866c2d2
   languageName: node
   linkType: hard
 
