@@ -7138,6 +7138,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"koishi-plugin-image-tools@workspace:external/image-tools":
+  version: 0.0.0-use.local
+  resolution: "koishi-plugin-image-tools@workspace:external/image-tools"
+  peerDependencies:
+    koishi: ^4.17.6
+  languageName: unknown
+  linkType: soft
+
 "koishi-plugin-isekai-tensei@workspace:^, koishi-plugin-isekai-tensei@workspace:external/isekai-tensei":
   version: 0.0.0-use.local
   resolution: "koishi-plugin-isekai-tensei@workspace:external/isekai-tensei"

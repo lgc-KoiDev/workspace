@@ -1,0 +1,10 @@
+commands:
+  template:
+    description: xxx
+    options:
+      option1: xxx
+    messages:
+      message1: xxx
+
+_config:
+  templateConfig1: xxx
