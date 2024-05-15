@@ -1,7 +1,7 @@
 {
   "name": "koishi-dev",
   "version": "0.0.0",
-  "packageManager": "yarn@4.1.0",
+  "packageManager": "yarn@4.2.2",
   "private": true,
   "files": [
     ".env",
@@ -36,7 +36,8 @@
     "dev": "cross-env NODE_ENV=development koishi start -r esbuild-register -r yml-register",
     "start": "koishi start",
     "format": "prettier -cw .",
-    "lint": "eslint \"**/*.{js,ts}\""
+    "lint": "eslint \"**/*.{js,ts}\"",
+    "sync": "git pull && git submodule foreach --recursive git pull && yarn"
   },
   "devDependencies": {
     "@cordisjs/element": "^0.1.0",
