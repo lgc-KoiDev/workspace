@@ -19,7 +19,9 @@ rules:
   no-plusplus:
     - error
     - allowForLoopAfterthoughts: true
+
   indent: off
+  sort-imports: off
   space-in-parens: off
   operator-linebreak: off
   lines-between-class-members:
