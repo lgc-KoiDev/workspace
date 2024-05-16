@@ -2540,6 +2540,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/uzip@npm:^0":
+  version: 0.20201231.2
+  resolution: "@types/uzip@npm:0.20201231.2"
+  checksum: 10c0/2d191721a16cbb29a208ecb621e74315c38d2ed4a4e5d8a86bdcf6a0f1618509e24a09939b079ed7cd3c75d7e66da1005e89f81a4b1b31313690cbd0807bfd07
+  languageName: node
+  linkType: hard
+
 "@types/web-bluetooth@npm:^0.0.16":
   version: 0.0.16
   resolution: "@types/web-bluetooth@npm:0.0.16"
@@ -7160,9 +7167,13 @@ __metadata:
   dependencies:
     "@koishijs/canvas": "npm:^0.2.0"
     "@types/omggif": "npm:^1"
+    "@types/uzip": "npm:^0"
     image-in-browser: "npm:^2.6.0"
     omggif: "npm:^1.0.10"
+    uzip: "npm:^0.20201231.0"
   peerDependencies:
+    "@cordisjs/element": ^0.1.0
+    "@koishijs/plugin-notifier": ^1.2.0
     koishi: ^4.17.6
   languageName: unknown
   linkType: soft
@@ -7171,12 +7182,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "koishi-plugin-isekai-tensei@workspace:external/isekai-tensei"
   dependencies:
-    "@cordisjs/element": "npm:^0.1.0"
     "@types/seedrandom": "npm:^3"
     koishi-plugin-puppeteer: "npm:^3.8.4"
     seedrandom: "npm:^3.0.5"
     semaphore-promise: "npm:^1.4.2"
   peerDependencies:
+    "@cordisjs/element": ^0.1.0
     "@cordisjs/plugin-http": ^0.4.2
     "@koishijs/plugin-notifier": ^1.2.0
     cosmokit: ^1.6.2

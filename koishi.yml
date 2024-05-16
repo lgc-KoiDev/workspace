@@ -34,7 +34,7 @@ plugins:
     insight:xdumsn: {}
     market:0ui04s:
       search:
-        endpoint: https://registry.koishi.t4wefan.pub/index.json
+        endpoint: https://registry.koishi.chat/index.json
     notifier:4il40k: {}
     oobe:qxntwh: {}
     sandbox:qvnvhi: {}
