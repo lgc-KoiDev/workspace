@@ -52,8 +52,9 @@ plugins:
       endpoint: ${{ env.SATORI_ENDPOINT }}
       token: ${{ env.SATORI_TOKEN }}
   group:5afehn:
-    puppeteer:jmmj4s: {}
     $label: 3rd-service
+    puppeteer:jmmj4s: {}
+    '@lgcnpm/skia-canvas:1f1tk4': {}
   group:develop:
     hmr:8qs3hw:
       $if: env.NODE_ENV === 'development'
@@ -69,4 +70,5 @@ plugins:
       requestConfig:
         endpoint: >-
           https://raw.githubusercontent.com/lgc2333/koishi-plugin-isekai-tensei/master/res/
-    image-tools:ewfxjo: {}
+    image-tools:ewfxjo:
+      overflowSendType: file

@@ -14,11 +14,13 @@
 
       // The `external` directory is used to store created plugins.
       // Try `npm run setup` or `yarn setup` to create a new plugin.
+      "@lgcnpm/koishi-plugin-*": ["external/@lgcnpm/*/src"],
       "koishi-plugin-*": [
         "external/*/src",
         "external/*/packages/core/src",
         "packages/*/src",
-        "plugins/*/src"
+        "plugins/*/src",
+        "private/*/src"
       ],
 
       // If you are developing a scoped plugin,

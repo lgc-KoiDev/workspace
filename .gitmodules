@@ -21,3 +21,6 @@
 [submodule "external/image-tools"]
 	path = external/image-tools
 	url = https://github.com/lgc2333/koishi-plugin-image-tools.git
+[submodule "external/@lgcnpm/skia-canvas"]
+	path = external/@lgcnpm/skia-canvas
+	url = https://github.com/lgc2333/koishi-plugin-skia-canvas.git
