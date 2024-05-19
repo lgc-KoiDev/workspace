@@ -54,7 +54,7 @@ plugins:
   group:5afehn:
     $label: 3rd-service
     puppeteer:jmmj4s: {}
-    '@lgcnpm/skia-canvas:1f1tk4': {}
+    '@ltxhhz/skia-canvas:1f1tk4': {}
   group:develop:
     hmr:8qs3hw:
       $if: env.NODE_ENV === 'development'
@@ -72,3 +72,4 @@ plugins:
           https://raw.githubusercontent.com/lgc-KoiDev/koishi-plugin-isekai-tensei/master/res/
     image-tools:ewfxjo:
       overflowSendType: file
+    sayo-roll:j259e6: {}

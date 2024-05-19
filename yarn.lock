@@ -7238,6 +7238,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"koishi-plugin-sayo-roll@workspace:external/sayo-roll":
+  version: 0.0.0-use.local
+  resolution: "koishi-plugin-sayo-roll@workspace:external/sayo-roll"
+  peerDependencies:
+    koishi: ^4.17.6
+  languageName: unknown
+  linkType: soft
+
 "koishi-plugin-telemetry@npm:^0.0.2":
   version: 0.0.2
   resolution: "koishi-plugin-telemetry@npm:0.0.2"
