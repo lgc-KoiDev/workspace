@@ -69,6 +69,6 @@ plugins:
     isekai-tensei:6ofdxx:
       requestConfig:
         endpoint: >-
-          https://raw.githubusercontent.com/lgc2333/koishi-plugin-isekai-tensei/master/res/
+          https://raw.githubusercontent.com/lgc-KoiDev/koishi-plugin-isekai-tensei/master/res/
     image-tools:ewfxjo:
       overflowSendType: file
