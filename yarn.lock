@@ -1631,17 +1631,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lgcnpm/koishi-plugin-skia-canvas@workspace:^, @lgcnpm/koishi-plugin-skia-canvas@workspace:external/@lgcnpm/skia-canvas":
-  version: 0.0.0-use.local
-  resolution: "@lgcnpm/koishi-plugin-skia-canvas@workspace:external/@lgcnpm/skia-canvas"
+"@ltxhhz/koishi-plugin-skia-canvas@npm:^0.0.6":
+  version: 0.0.6
+  resolution: "@ltxhhz/koishi-plugin-skia-canvas@npm:0.0.6"
   dependencies:
     "@ltxhhz/skia-canvas-for-koishi": "npm:^1.0.2"
-    "@types/tar": "npm:^6.1.13"
     tar: "npm:^7.1.0"
   peerDependencies:
-    koishi: ^4.17.6
-  languageName: unknown
-  linkType: soft
+    koishi: ^4.17.1
+  checksum: 10c0/69986f68891640bc8a2304f065a486072dd37c060da57095c77b81d2f5aef889432fd2bd88636de1739ca45483e05fa0ec43e7e018ae3d9257f4b3035bf9e668
+  languageName: node
+  linkType: hard
 
 "@ltxhhz/skia-canvas-for-koishi@npm:^1.0.2":
   version: 1.0.2
@@ -2534,16 +2534,6 @@ __metadata:
     "@types/node": "npm:*"
     "@types/send": "npm:*"
   checksum: 10c0/26ec864d3a626ea627f8b09c122b623499d2221bbf2f470127f4c9ebfe92bd8a6bb5157001372d4c4bd0dd37a1691620217d9dc4df5aa8f779f3fd996b1c60ae
-  languageName: node
-  linkType: hard
-
-"@types/tar@npm:^6.1.13":
-  version: 6.1.13
-  resolution: "@types/tar@npm:6.1.13"
-  dependencies:
-    "@types/node": "npm:*"
-    minipass: "npm:^4.0.0"
-  checksum: 10c0/98cc72d444fa622049e86e457a64d859c6effd7c7518d36e7b40b4ab1e7aa9e2412cc868cbef396650485dae07d50d98f662e8a53bb45f4a70eb6c61f80a63c7
   languageName: node
   linkType: hard
 
@@ -4696,9 +4686,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.668":
-  version: 1.4.773
-  resolution: "electron-to-chromium@npm:1.4.773"
-  checksum: 10c0/eef684e2d64848418080715a76bc4147373d75ade07f65e64a97a3efd52d8c83dd8dd0daadba0d5ca891e3738144f8e97e1b7fe4545de3d15e71cd70ff14b2f1
+  version: 1.4.774
+  resolution: "electron-to-chromium@npm:1.4.774"
+  checksum: 10c0/dc957ee574d14838abd16f48fb3e4bd069bf47807fe02144b850d4903265810e17abc5800a361941f787bd78692cf4f81eab70046a6757eb39e44c91ff520dd4
   languageName: node
   linkType: hard
 
@@ -7060,7 +7050,7 @@ __metadata:
     "@koishijs/plugin-server-satori": "npm:^2.5.0"
     "@koishijs/plugin-status": "npm:^7.4.10"
     "@koishijs/scripts": "npm:^4.5.2"
-    "@lgcnpm/koishi-plugin-skia-canvas": "workspace:^"
+    "@ltxhhz/koishi-plugin-skia-canvas": "npm:^0.0.6"
     "@types/node": "npm:^20.12.12"
     "@types/react": "npm:^18.3.2"
     "@typescript-eslint/eslint-plugin": "npm:^7.9.0"
@@ -7181,7 +7171,7 @@ __metadata:
   peerDependencies:
     "@cordisjs/element": ^0.1.0
     "@koishijs/plugin-notifier": ^1.2.0
-    "@lgcnpm/koishi-plugin-skia-canvas": "workspace:^"
+    "@ltxhhz/koishi-plugin-skia-canvas": ^0.0.6
     koishi: ^4.17.6
   languageName: unknown
   linkType: soft
@@ -7800,13 +7790,6 @@ __metadata:
   dependencies:
     yallist: "npm:^4.0.0"
   checksum: 10c0/a114746943afa1dbbca8249e706d1d38b85ed1298b530f5808ce51f8e9e941962e2a5ad2e00eae7dd21d8a4aae6586a66d4216d1a259385e9d0358f0c1eba16c
-  languageName: node
-  linkType: hard
-
-"minipass@npm:^4.0.0":
-  version: 4.2.8
-  resolution: "minipass@npm:4.2.8"
-  checksum: 10c0/4ea76b030d97079f4429d6e8a8affd90baf1b6a1898977c8ccce4701c5a2ba2792e033abc6709373f25c2c4d4d95440d9d5e9464b46b7b76ca44d2ce26d939ce
   languageName: node
   linkType: hard
 
@@ -9667,8 +9650,8 @@ __metadata:
   linkType: hard
 
 "tsx@npm:^4.10.4":
-  version: 4.10.4
-  resolution: "tsx@npm:4.10.4"
+  version: 4.10.5
+  resolution: "tsx@npm:4.10.5"
   dependencies:
     esbuild: "npm:~0.20.2"
     fsevents: "npm:~2.3.3"
@@ -9678,7 +9661,7 @@ __metadata:
       optional: true
   bin:
     tsx: dist/cli.mjs
-  checksum: 10c0/2782ff1f69ddff1e45b53b48842d48b9eef28d8a6a353268b641ad974660cfd2b8ecf6e9fa8a978bcd37a58229d760f432b21de5afc576326cbcc55a44d2adcf
+  checksum: 10c0/a9ca576417c52010b12b7ab14023c1dfee458220bf4c11d528f9d462ce739c0a10aff967c5b28092032fc56a5639f043d798bfb00df469e3b263e93ab2c963b1
   languageName: node
   linkType: hard
 
