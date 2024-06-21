@@ -7511,8 +7511,10 @@ __metadata:
   resolution: "koishi-plugin-memes-api@workspace:external/memes-api"
   dependencies:
     koishi-plugin-adapter-onebot: "npm:^6.5.8"
+    semaphore-promise: "npm:^1.4.2"
   peerDependencies:
     "@cordisjs/plugin-http": ^0.4.2
+    "@koishijs/plugin-notifier": ^1.2.1
     koishi: ^4.17.9
   languageName: unknown
   linkType: soft
