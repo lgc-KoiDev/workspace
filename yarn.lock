@@ -7082,6 +7082,7 @@ __metadata:
     koishi-plugin-theme-doki: "workspace:^"
     koishi-plugin-theme-vanilla: "npm:^1.0.6"
     koishi-plugin-wallpaper: "npm:^1.0.5"
+    prettier: "npm:^3.3.3"
     tsx: "npm:^4.17.0"
     typescript: "npm:^5.5.4"
     yakumo: "npm:^1.0.0-beta.16"
@@ -7257,14 +7258,6 @@ __metadata:
   checksum: 10c0/61b7336d550ad030058132db20164788d991cc641b7621cc9295165bd4f1d1158310d54b3bcd58da086e669d9458eadd1c96c6fa2257b33a0ee1d0021716a16f
   languageName: node
   linkType: hard
-
-"koishi-plugin-template@workspace:private/template":
-  version: 0.0.0-use.local
-  resolution: "koishi-plugin-template@workspace:private/template"
-  peerDependencies:
-    koishi: ^4.17.11
-  languageName: unknown
-  linkType: soft
 
 "koishi-plugin-theme-doki@workspace:^, koishi-plugin-theme-doki@workspace:external/theme-doki":
   version: 0.0.0-use.local
