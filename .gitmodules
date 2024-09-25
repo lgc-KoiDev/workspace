@@ -24,3 +24,9 @@
 [submodule "external/sayo-roll"]
 	path = external/sayo-roll
 	url = https://github.com/lgc-KoiDev/koishi-plugin-sayo-roll
+[submodule "others/readme"]
+	path = others/readme
+	url = https://github.com/lgc-KoiDev/readme
+[submodule "others/template"]
+	path = others/template
+	url = https://github.com/lgc-KoiDev/koishi-plugin-template

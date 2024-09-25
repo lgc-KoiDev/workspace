@@ -32,5 +32,4 @@ tsconfig.temp.json
 *.njsproj
 *.sln
 
-/private
 external/.gitignore
