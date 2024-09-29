@@ -1,23 +1,23 @@
-[submodule "memes-api"]
-    path = external/memes-api
-    branch = master
-    url = https://github.com/lgc-KoiDev/koishi-plugin-memes-api.git
-[submodule "theme-doki"]
-    path = external/theme-doki
-    branch = master
-    url = https://github.com/lgc-KoiDev/koishi-plugin-theme-doki.git
-[submodule "dicexp"]
-    path = external/dicexp
-    branch = master
-    url = https://github.com/lgc-KoiDev/koishi-plugin-dicexp.git
-[submodule "memebox"]
-    path = external/memebox
-    branch = master
-    url = https://github.com/lgc-KoiDev/koishi-plugin-memebox.git
-[submodule "isekai-tensei"]
-    path = external/isekai-tensei
-    branch = master
-    url = https://github.com/lgc-KoiDev/koishi-plugin-isekai-tensei.git
+[submodule "external/memes-api"]
+	path = external/memes-api
+	branch = master
+	url = https://github.com/lgc-KoiDev/koishi-plugin-memes-api.git
+[submodule "external/theme-doki"]
+	path = external/theme-doki
+	branch = master
+	url = https://github.com/lgc-KoiDev/koishi-plugin-theme-doki.git
+[submodule "external/dicexp"]
+	path = external/dicexp
+	branch = master
+	url = https://github.com/lgc-KoiDev/koishi-plugin-dicexp.git
+[submodule "external/memebox"]
+	path = external/memebox
+	branch = master
+	url = https://github.com/lgc-KoiDev/koishi-plugin-memebox.git
+[submodule "external/isekai-tensei"]
+	path = external/isekai-tensei
+	branch = master
+	url = https://github.com/lgc-KoiDev/koishi-plugin-isekai-tensei.git
 [submodule "external/image-tools"]
 	path = external/image-tools
 	url = https://github.com/lgc-KoiDev/koishi-plugin-image-tools.git
