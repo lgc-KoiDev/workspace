@@ -6810,16 +6810,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"install-artifact-from-github@npm:^1.3.5":
-  version: 1.3.5
-  resolution: "install-artifact-from-github@npm:1.3.5"
-  bin:
-    install-from-cache: bin/install-from-cache.js
-    save-to-github-cache: bin/save-to-github-cache.js
-  checksum: 10c0/b8d9597dbdc422789ea2ed6c0ef534441577bb9dbca0eac5131e55985e2e0ae7bb63743ffeebb0d2a4082426701b9a1afe7acb1540f729583fac5d2e2567093a
-  languageName: node
-  linkType: hard
-
 "internal-slot@npm:^1.0.4, internal-slot@npm:^1.0.7":
   version: 1.0.7
   resolution: "internal-slot@npm:1.0.7"
@@ -7661,7 +7651,6 @@ __metadata:
     koishi-plugin-adapter-onebot: "npm:^6.7.2"
     meme-generator-api: "workspace:^"
     p-limit: "npm:^6.1.0"
-    re2: "npm:^1.21.4"
   peerDependencies:
     cosmokit: ^1.6.2
     koishi: ^4.18.0
@@ -8420,15 +8409,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nan@npm:^2.20.0":
-  version: 2.20.0
-  resolution: "nan@npm:2.20.0"
-  dependencies:
-    node-gyp: "npm:latest"
-  checksum: 10c0/75775309a21ad179a55250d62ce47322c33ca03d8ddb5ad4c555bd820dd72484b3c59253dd9f41cc68dd63453ef04017407fbd081a549bc030d977079bb798b7
-  languageName: node
-  linkType: hard
-
 "nanoid@npm:^3.3.7":
   version: 3.3.7
   resolution: "nanoid@npm:3.3.7"
@@ -8480,7 +8460,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-gyp@npm:^10.2.0, node-gyp@npm:latest":
+"node-gyp@npm:latest":
   version: 10.2.0
   resolution: "node-gyp@npm:10.2.0"
   dependencies:
@@ -9216,17 +9196,6 @@ __metadata:
   bin:
     rc: ./cli.js
   checksum: 10c0/24a07653150f0d9ac7168e52943cc3cb4b7a22c0e43c7dff3219977c2fdca5a2760a304a029c20811a0e79d351f57d46c9bde216193a0f73978496afc2b85b15
-  languageName: node
-  linkType: hard
-
-"re2@npm:^1.21.4":
-  version: 1.21.4
-  resolution: "re2@npm:1.21.4"
-  dependencies:
-    install-artifact-from-github: "npm:^1.3.5"
-    nan: "npm:^2.20.0"
-    node-gyp: "npm:^10.2.0"
-  checksum: 10c0/729d2c190aa94d4f80e3492d259bff3fa0ec8232b78f9b5effa84d71ab734da856f2209af47dd1382bffe3720704a7de9096e3d34c88933f7d1257d5531c276e
   languageName: node
   linkType: hard
 
