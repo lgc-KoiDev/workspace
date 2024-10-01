@@ -28,6 +28,9 @@
 [submodule "external/sayo-roll"]
 	path = external/sayo-roll
 	url = https://github.com/lgc-KoiDev/koishi-plugin-sayo-roll
+[submodule "external/error-encountered"]
+	path = external/error-encountered
+	url = https://github.com/lgc-KoiDev/koishi-plugin-error-encountered
 [submodule "others/readme"]
 	path = others/readme
 	url = https://github.com/lgc-KoiDev/readme
