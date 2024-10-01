@@ -2,6 +2,10 @@
 	path = external/memes-api
 	branch = master
 	url = https://github.com/lgc-KoiDev/koishi-plugin-memes-api.git
+[submodule "external/meme-generator-api"]
+	path = external/meme-generator-api
+	branch = master
+	url = https://github.com/lgc2333/meme-generator-api.git
 [submodule "external/theme-doki"]
 	path = external/theme-doki
 	branch = master
