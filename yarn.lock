@@ -533,13 +533,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dicexp/naive-evaluator@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "@dicexp/naive-evaluator@npm:0.5.0"
+"@dicexp/naive-evaluator@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "@dicexp/naive-evaluator@npm:0.6.0"
   peerDependencies:
     "@lezer/highlight": ^1.1.6
     "@lezer/lr": ^1.3.13
-  checksum: 10c0/ae6fb3a5ab45913f46491210380e903bf95ab73feeaf888a689cee53c27ca6046ecc8c6714d976f31e3507c10686765ff7229869d41bfb217aa3d63020fb9349
+  checksum: 10c0/83a60d1fd5acc0250a2842d08e9c3eea4f0d1f43a03ebd9e049a752e9c00d1ef26c352e5d3bb573393967beb5b34f417a6c6514da17a1de1da3a69f9e9c8d4df
   languageName: node
   linkType: hard
 
@@ -2743,7 +2743,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/uzip@npm:^0":
+"@types/uzip@npm:^0.20201231.2":
   version: 0.20201231.2
   resolution: "@types/uzip@npm:0.20201231.2"
   checksum: 10c0/2d191721a16cbb29a208ecb621e74315c38d2ed4a4e5d8a86bdcf6a0f1618509e24a09939b079ed7cd3c75d7e66da1005e89f81a4b1b31313690cbd0807bfd07
@@ -6719,10 +6719,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"image-in-browser@npm:^2.7.1":
-  version: 2.7.1
-  resolution: "image-in-browser@npm:2.7.1"
-  checksum: 10c0/100e86e0b0b09e40c0f4ee2e3183a34854dd8d3b71194233b278e91ef020925d3ff51c6cb1e49ad7c8852716b633dcdf9991f7a59542f54e51d47012f8b8e9e5
+"image-in-browser@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "image-in-browser@npm:3.2.0"
+  checksum: 10c0/817032a77b1c2533ca3463daa1171d99d22bf4085e7c29756daaef107db32da7c155d0e4083dfa9e87b188e9bf5ca44c662307ed23b0cda600bd348161f1c5ff
   languageName: node
   linkType: hard
 
@@ -6807,6 +6807,16 @@ __metadata:
   version: 1.3.8
   resolution: "ini@npm:1.3.8"
   checksum: 10c0/ec93838d2328b619532e4f1ff05df7909760b6f66d9c9e2ded11e5c1897d6f2f9980c54dd638f88654b00919ce31e827040631eab0a3969e4d1abefa0719516a
+  languageName: node
+  linkType: hard
+
+"install-artifact-from-github@npm:^1.3.5":
+  version: 1.3.5
+  resolution: "install-artifact-from-github@npm:1.3.5"
+  bin:
+    install-from-cache: bin/install-from-cache.js
+    save-to-github-cache: bin/save-to-github-cache.js
+  checksum: 10c0/b8d9597dbdc422789ea2ed6c0ef534441577bb9dbca0eac5131e55985e2e0ae7bb63743ffeebb0d2a4082426701b9a1afe7acb1540f729583fac5d2e2567093a
   languageName: node
   linkType: hard
 
@@ -7582,7 +7592,7 @@ __metadata:
   resolution: "koishi-plugin-dicexp@workspace:external/dicexp"
   dependencies:
     "@dicexp/interface": "npm:^0.5.0"
-    "@dicexp/naive-evaluator": "npm:^0.5.0"
+    "@dicexp/naive-evaluator": "npm:^0.6.0"
     "@dicexp/naive-evaluator-builtins": "npm:^0.5.0"
     "@dicexp/naive-evaluator-in-worker": "npm:^0.5.3"
     "@lezer/common": "npm:^1.2.1"
@@ -7600,8 +7610,8 @@ __metadata:
   resolution: "koishi-plugin-image-tools@workspace:external/image-tools"
   dependencies:
     "@types/omggif": "npm:^1"
-    "@types/uzip": "npm:^0"
-    image-in-browser: "npm:^2.7.1"
+    "@types/uzip": "npm:^0.20201231.2"
+    image-in-browser: "npm:^3.2.0"
     modern-gif: "npm:^2.0.3"
     uzip: "npm:^0.20201231.0"
   peerDependencies:
@@ -7622,7 +7632,7 @@ __metadata:
     semaphore-promise: "npm:^1.4.2"
   peerDependencies:
     "@cordisjs/element": ^0.1.0
-    "@cordisjs/plugin-http": ^0.4.2
+    "@cordisjs/plugin-http": ^0.6.2
     "@koishijs/plugin-notifier": ^1.2.1
     cosmokit: ^1.6.2
     koishi: ^4.18.0
@@ -7635,7 +7645,7 @@ __metadata:
   dependencies:
     json5: "npm:^2.2.3"
   peerDependencies:
-    "@cordisjs/plugin-http": ^0.4.2
+    "@cordisjs/plugin-http": ^0.6.2
     koishi: ^4.18.0
     koishi-plugin-cron: ^3.1.0
   languageName: unknown
@@ -7645,11 +7655,15 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "koishi-plugin-memes-api@workspace:external/memes-api"
   dependencies:
+    "@cordisjs/element": "npm:^0.1.0"
+    "@koishijs/plugin-help": "npm:^2.4.4"
     "@koishijs/plugin-notifier": "npm:^1.2.1"
     koishi-plugin-adapter-onebot: "npm:^6.7.2"
     meme-generator-api: "workspace:^"
     p-limit: "npm:^6.1.0"
+    re2: "npm:^1.21.4"
   peerDependencies:
+    cosmokit: ^1.6.2
     koishi: ^4.18.0
   languageName: unknown
   linkType: soft
@@ -8059,9 +8073,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"meme-generator-api@workspace:^, meme-generator-api@workspace:external/memes-api/external/meme-generator-api":
+"meme-generator-api@workspace:^, meme-generator-api@workspace:external/meme-generator-api":
   version: 0.0.0-use.local
-  resolution: "meme-generator-api@workspace:external/memes-api/external/meme-generator-api"
+  resolution: "meme-generator-api@workspace:external/meme-generator-api"
   dependencies:
     "@types/chai": "npm:^5.0.0"
     "@types/chai-as-promised": "npm:^8.0.1"
@@ -8406,6 +8420,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nan@npm:^2.20.0":
+  version: 2.20.0
+  resolution: "nan@npm:2.20.0"
+  dependencies:
+    node-gyp: "npm:latest"
+  checksum: 10c0/75775309a21ad179a55250d62ce47322c33ca03d8ddb5ad4c555bd820dd72484b3c59253dd9f41cc68dd63453ef04017407fbd081a549bc030d977079bb798b7
+  languageName: node
+  linkType: hard
+
 "nanoid@npm:^3.3.7":
   version: 3.3.7
   resolution: "nanoid@npm:3.3.7"
@@ -8457,7 +8480,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-gyp@npm:latest":
+"node-gyp@npm:^10.2.0, node-gyp@npm:latest":
   version: 10.2.0
   resolution: "node-gyp@npm:10.2.0"
   dependencies:
@@ -9193,6 +9216,17 @@ __metadata:
   bin:
     rc: ./cli.js
   checksum: 10c0/24a07653150f0d9ac7168e52943cc3cb4b7a22c0e43c7dff3219977c2fdca5a2760a304a029c20811a0e79d351f57d46c9bde216193a0f73978496afc2b85b15
+  languageName: node
+  linkType: hard
+
+"re2@npm:^1.21.4":
+  version: 1.21.4
+  resolution: "re2@npm:1.21.4"
+  dependencies:
+    install-artifact-from-github: "npm:^1.3.5"
+    nan: "npm:^2.20.0"
+    node-gyp: "npm:^10.2.0"
+  checksum: 10c0/729d2c190aa94d4f80e3492d259bff3fa0ec8232b78f9b5effa84d71ab734da856f2209af47dd1382bffe3720704a7de9096e3d34c88933f7d1257d5531c276e
   languageName: node
   linkType: hard
 
@@ -10335,11 +10369,11 @@ __metadata:
 
 "typescript@patch:typescript@npm%3A^5.6.2#optional!builtin<compat/typescript>":
   version: 5.6.2
-  resolution: "typescript@patch:typescript@npm%3A5.6.2#optional!builtin<compat/typescript>::version=5.6.2&hash=74658d"
+  resolution: "typescript@patch:typescript@npm%3A5.6.2#optional!builtin<compat/typescript>::version=5.6.2&hash=8c6c40"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/e6c1662e4852e22fe4bbdca471dca3e3edc74f6f1df043135c44a18a7902037023ccb0abdfb754595ca9028df8920f2f8492c00fc3cbb4309079aae8b7de71cd
+  checksum: 10c0/94eb47e130d3edd964b76da85975601dcb3604b0c848a36f63ac448d0104e93819d94c8bdf6b07c00120f2ce9c05256b8b6092d23cf5cf1c6fa911159e4d572f
   languageName: node
   linkType: hard
 
