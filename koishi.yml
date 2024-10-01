@@ -62,7 +62,6 @@ plugins:
     memes-api:g5bmn2:
       requestConfig:
         endpoint: ${{ env.MEMES_API_ENDPOINT }}
-      getInfoConcurrency: 1
     theme-doki:ev4nkl: {}
     dicexp:4ub84h: {}
     memebox:2f2d81: {}
