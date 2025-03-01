@@ -5,7 +5,6 @@ logger:
   levels: 3
 plugins:
   group:server:
-    $collapsed: true
     server:cl57an:
       port: 5140
       maxPort: 5149
@@ -47,29 +46,32 @@ plugins:
       path: data/koishi.db
     assets-local:0oiy08: {}
   group:adapter:
-    adapter-satori:ql4o4e:
+    ~adapter-satori:ql4o4e:
       endpoint: ${{ env.SATORI_ENDPOINT }}
       token: ${{ env.SATORI_TOKEN }}
+    adapter-onebot:1bdux2:
+      selfId: ${{ env.ONEBOT_SELF_ID }}
+      path: /onebot/v11/ws
   group:5afehn:
     $label: 3rd-service
     ~puppeteer:jmmj4s: {}
-    '@ltxhhz/skia-canvas:1f1tk4': {}
+    ~@ltxhhz/skia-canvas:1f1tk4: {}
   group:develop:
     hmr:8qs3hw:
       $if: env.NODE_ENV === 'development'
       root:
         - .
-    memes-api:g5bmn2:
+    theme-doki:ev4nkl: {}
+    ~memes-api:g5bmn2:
       requestConfig:
         endpoint: ${{ env.MEMES_API_ENDPOINT }}
-    theme-doki:ev4nkl: {}
-    dicexp:4ub84h: {}
-    memebox:2f2d81: {}
-    isekai-tensei:6ofdxx:
+    ~dicexp:4ub84h: {}
+    ~memebox:2f2d81: {}
+    ~isekai-tensei:6ofdxx:
       requestConfig:
         endpoint: >-
           https://raw.githubusercontent.com/lgc-KoiDev/koishi-plugin-isekai-tensei/master/res/
-    image-tools:ewfxjo:
+    ~image-tools:ewfxjo:
       overflowSendType: file
-    sayo-roll:j259e6: {}
-    error-encountered:3lc3rt: {}
+    ~sayo-roll:j259e6: {}
+    ~error-encountered:3lc3rt: {}
