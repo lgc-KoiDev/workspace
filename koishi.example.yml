@@ -54,24 +54,8 @@ plugins:
       path: /onebot/v11/ws
   group:5afehn:
     $label: 3rd-service
-    ~puppeteer:jmmj4s: {}
-    ~@ltxhhz/skia-canvas:1f1tk4: {}
   group:develop:
     hmr:8qs3hw:
       $if: env.NODE_ENV === 'development'
       root:
         - .
-    theme-doki:ev4nkl: {}
-    ~memes-api:g5bmn2:
-      requestConfig:
-        endpoint: ${{ env.MEMES_API_ENDPOINT }}
-    ~dicexp:4ub84h: {}
-    ~memebox:2f2d81: {}
-    ~isekai-tensei:6ofdxx:
-      requestConfig:
-        endpoint: >-
-          https://raw.githubusercontent.com/lgc-KoiDev/koishi-plugin-isekai-tensei/master/res/
-    ~image-tools:ewfxjo:
-      overflowSendType: file
-    ~sayo-roll:j259e6: {}
-    ~error-encountered:3lc3rt: {}
