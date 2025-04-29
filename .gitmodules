@@ -1,42 +1,44 @@
-[submodule "external/memes-api"]
-	path = external/memes-api
-	branch = master
-	url = https://github.com/lgc-KoiDev/koishi-plugin-memes-api.git
-[submodule "external/meme-generator-api"]
-	path = external/meme-generator-api
-	branch = master
-	url = https://github.com/lgc2333/meme-generator-api.git
-[submodule "external/theme-doki"]
-	path = external/theme-doki
-	branch = master
-	url = https://github.com/lgc-KoiDev/koishi-plugin-theme-doki.git
 [submodule "external/dicexp"]
 	path = external/dicexp
 	branch = master
 	url = https://github.com/lgc-KoiDev/koishi-plugin-dicexp.git
-[submodule "external/memebox"]
-	path = external/memebox
-	branch = master
-	url = https://github.com/lgc-KoiDev/koishi-plugin-memebox.git
+[submodule "external/error-encountered"]
+	path = external/error-encountered
+	url = https://github.com/lgc-KoiDev/koishi-plugin-error-encountered
+[submodule "external/image-tools"]
+	path = external/image-tools
+	url = https://github.com/lgc-KoiDev/koishi-plugin-image-tools.git
 [submodule "external/isekai-tensei"]
 	path = external/isekai-tensei
 	branch = master
 	url = https://github.com/lgc-KoiDev/koishi-plugin-isekai-tensei.git
-[submodule "external/image-tools"]
-	path = external/image-tools
-	url = https://github.com/lgc-KoiDev/koishi-plugin-image-tools.git
+[submodule "external/memebox"]
+	path = external/memebox
+	branch = master
+	url = https://github.com/lgc-KoiDev/koishi-plugin-memebox.git
+[submodule "external/memes-api"]
+	path = external/memes-api
+	branch = master
+	url = https://github.com/lgc-KoiDev/koishi-plugin-memes-api.git
 [submodule "external/sayo-roll"]
 	path = external/sayo-roll
 	url = https://github.com/lgc-KoiDev/koishi-plugin-sayo-roll
-[submodule "external/error-encountered"]
-	path = external/error-encountered
-	url = https://github.com/lgc-KoiDev/koishi-plugin-error-encountered
+[submodule "external/theme-doki"]
+	path = external/theme-doki
+	branch = master
+	url = https://github.com/lgc-KoiDev/koishi-plugin-theme-doki.git
+
+[submodule "packages/meme-generator-api"]
+	path = packages/meme-generator-api
+	branch = master
+	url = https://github.com/lgc2333/meme-generator-api.git
+[submodule "packages/meme-generator-rs-api"]
+	path = packages/meme-generator-rs-api
+	url = https://github.com/lgc2333/meme-generator-rs-api
+
 [submodule "others/readme"]
 	path = others/readme
 	url = https://github.com/lgc-KoiDev/readme
 [submodule "others/template"]
 	path = others/template
 	url = https://github.com/lgc-KoiDev/koishi-plugin-template
-[submodule "external/meme-generator-rs-api"]
-	path = external/meme-generator-rs-api
-	url = https://github.com/lgc2333/meme-generator-rs-api
