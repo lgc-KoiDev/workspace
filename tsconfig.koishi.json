@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.base",
+  "compilerOptions": {
+    "jsxImportSource": "@cordisjs/element",
+    "types": ["node", "yml-register/types"]
+  }
+}

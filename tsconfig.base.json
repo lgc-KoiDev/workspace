@@ -10,8 +10,6 @@
     "emitDeclarationOnly": true, // use esbuild
     "moduleResolution": "bundler",
     "jsx": "react-jsx",
-    "jsxImportSource": "@cordisjs/element",
-    "types": ["node", "yml-register/types"],
     "allowJs": true,
     "checkJs": true,
     "removeComments": true,
