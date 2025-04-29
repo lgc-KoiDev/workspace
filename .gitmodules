@@ -37,3 +37,6 @@
 [submodule "others/template"]
 	path = others/template
 	url = https://github.com/lgc-KoiDev/koishi-plugin-template
+[submodule "external/meme-generator-rs-api"]
+	path = external/meme-generator-rs-api
+	url = https://github.com/lgc2333/meme-generator-rs-api
