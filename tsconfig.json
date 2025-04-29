@@ -14,19 +14,19 @@
 
       // The `external` directory is used to store created plugins.
       // Try `npm run setup` or `yarn setup` to create a new plugin.
-      "@lgcnpm/koishi-plugin-*": ["external/@lgcnpm/*/src"],
       "koishi-plugin-*": [
         "external/*/src",
         "external/*/packages/core/src",
-        "packages/*/src",
-        "plugins/*/src",
-        "private/*/src"
+        // "packages/*/src",
+        "plugins/*/src"
+        // "private/*/src"
       ],
 
       // If you are developing a scoped plugin,
       // just uncomment the next line and change `@scope`
       // to the scope name (i.e. npm account or organization).
       // "@scope/koishi-plugin-*": ["external/*/src"],
+      "@lgcnpm/koishi-plugin-*": ["external/@lgcnpm/*/src"],
 
       // Below are links for koishi internal packages.
       // You only need them when you are developing koishi itself.
@@ -58,7 +58,7 @@
       // Even if you don't use it, do not delete this line,
       // as it bypasses a bug in tsconfig-path/register.
       // See: https://github.com/dividab/tsconfig-paths/issues/209
-      "*": ["packages/*/src"]
+      "*": ["packages/*/src", "private/*/src"]
     }
   },
   "files": []
