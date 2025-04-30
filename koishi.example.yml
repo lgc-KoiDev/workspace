@@ -5,55 +5,53 @@ logger:
   levels: 3
 plugins:
   group:server:
-    server:cl57an:
+    server:4g7tls:
       port: 5140
       maxPort: 5149
+    ~server-satori:drrl56: {}
   group:basic:
-    $collapsed: true
-    ~admin:3mzvy7: {}
-    ~bind:gpodg0: {}
-    commands:42ed33: {}
-    help:3eo601: {}
-    ~inspect:9fnwco: {}
-    locales:ntilug: {}
-    rate-limit:4a0h46: {}
-    telemetry:sv8jdl: {}
-    proxy-agent:bjapjp: {}
-    cron:ffti05: {}
-    http:1jgr24: {}
+    ~admin:z4zacq: {}
+    ~bind:q0q2ri: {}
+    commands:73gzip: {}
+    help:1fckcx: {}
+    http:iac0um: {}
+    ~inspect:d9l12d: {}
+    locales:xmmu9b: {}
+    proxy-agent:6qlwy9: {}
+    rate-limit:mi1x5j: {}
+    ~telemetry:1kigic: {}
   group:console:
-    $collapsed: true
-    actions:xdxijm: {}
-    analytics:xv6joc: {}
-    config:co3r4g: {}
-    console:ak2ihl: {}
-    dataview:fxw45d: {}
-    explorer:oa8pod: {}
-    logger:bw51f2: {}
-    insight:xdumsn: {}
-    market:0ui04s:
+    actions:pbc3y8: {}
+    analytics:8ul1sa: {}
+    ~auth:4okv5g: {}
+    config:cmup4j: {}
+    console:e8u5nh: {}
+    dataview:jwlkm0: {}
+    explorer:jametq: {}
+    logger:jvb5an: {}
+    insight:ov5w0z: {}
+    market:p0nx8i:
       search:
         endpoint: https://registry.koishi.chat/index.json
-    notifier:4il40k: {}
-    oobe:qxntwh: {}
-    sandbox:qvnvhi: {}
-    status:5pj6nx: {}
-    theme-vanilla:0ecpao: {}
-    ~wallpaper:i1yma7: {}
+    notifier:li5f48: {}
+    oobe:g7urph: {}
+    sandbox:aw7zuo: {}
+    status:uu7ksz: {}
+    theme-vanilla:3oy9nd: {}
+    ~wallpaper:smsdqo: {}
   group:storage:
     $collapsed: true
-    database-sqlite:w8nyjf:
+    database-sqlite:qhyiba:
       path: data/koishi.db
-    assets-local:0oiy08: {}
+    assets-local:okqjey: {}
   group:adapter:
-    ~adapter-satori:ql4o4e:
+    ~adapter-satori:jnu96u:
       endpoint: ${{ env.SATORI_ENDPOINT }}
       token: ${{ env.SATORI_TOKEN }}
-    adapter-onebot:1bdux2:
+    adapter-onebot:qoq58n:
       selfId: ${{ env.ONEBOT_SELF_ID }}
       path: /onebot/v11/ws
-  group:5afehn:
-    $label: 3rd-service
+  group:3rd-service: {}
   group:develop:
     hmr:8qs3hw:
       $if: env.NODE_ENV === 'development'

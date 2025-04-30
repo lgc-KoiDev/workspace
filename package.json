@@ -44,11 +44,11 @@
     "sync": "git pull && git submodule foreach --recursive git pull && yarn"
   },
   "devDependencies": {
-    "@cordisjs/element": "^0.2.0",
     "@cordisjs/eslint-config": "^1.1.1",
-    "@koishijs/client": "^5.30.7",
+    "@koishijs/client": "^5.30.5",
     "@koishijs/plugin-hmr": "^1.2.9",
     "@koishijs/scripts": "^4.6.1",
+    "@satorijs/element": "^3.1.7",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "@types/node": "^22.15.3",
     "@types/react": "^19.1.2",
@@ -78,6 +78,7 @@
     "yml-register": "^1.2.5"
   },
   "dependencies": {
+    "@cordisjs/plugin-http": "^0.6.3",
     "@koishijs/plugin-actions": "^0.0.2",
     "@koishijs/plugin-adapter-satori": "^1.5.1",
     "@koishijs/plugin-admin": "^2.0.0-beta.4",
