@@ -1,0 +1,14 @@
+{
+  "i18n-ally.localesPaths": [
+    "locales",
+    "data/locales",
+    "external/dicexp/src/locales",
+    "external/image-tools/src/locales",
+    "external/isekai-tensei/src/locales",
+    "external/memebox/src/locales",
+    "external/memes-api/src/locales",
+    "external/sayo-roll/src/locales",
+    "others/template/src/locales"
+  ],
+  "i18n-ally.keystyle": "nested"
+}
