@@ -13,7 +13,7 @@ export interface Config {
 
 // eslint-disable-next-line ts/no-redeclare
 export const Config: z<Config> = z.object({
-  push: z.boolean().default(false),
+  push: z.boolean(),
 })
 
 export function apply(ctx: Context, config: Config) {
