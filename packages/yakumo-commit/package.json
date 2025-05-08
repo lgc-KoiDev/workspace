@@ -1,0 +1,49 @@
+{
+  "name": "yakumo-commit",
+  "type": "module",
+  "version": "2.0.0-alpha.2",
+  "private": true,
+  "packageManager": "yarn@4.9.1",
+  "description": "Commit and push multiple workspaces at once",
+  "author": "LgCookie <lgc2333@126.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/lgc-KoiDev/workspace",
+  "repository": {
+    "directory": "packages/esbuild",
+    "type": "git",
+    "url": "git+https://github.com/shigma/yakumo.git"
+  },
+  "keywords": [
+    "monorepo",
+    "workspace",
+    "cli",
+    "script",
+    "esbuild",
+    "build"
+  ],
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "cordis": {
+    "inject": [
+      "yakumo"
+    ]
+  },
+  "peerDependencies": {
+    "yakumo": "^1.0.0"
+  },
+  "dependencies": {
+    "dumble": "^0.2.2",
+    "schemastery": "^3.16.1",
+    "simple-git": "^3.27.0",
+    "tsconfig-utils": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.33",
+    "esbuild": "^0.25.1",
+    "typescript": "^5.8.2",
+    "yakumo": "^1.0.0"
+  }
+}

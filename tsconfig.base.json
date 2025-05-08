@@ -1,19 +1,19 @@
 {
   "compilerOptions": {
-    "target": "es2022",
-    "module": "esnext",
-    "declaration": true,
-    "composite": true,
     "incremental": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "emitDeclarationOnly": true, // use esbuild
-    "moduleResolution": "bundler",
+    "composite": true,
+    "target": "es2022",
     "jsx": "react-jsx",
+    "module": "esnext",
+    "moduleResolution": "bundler",
     "allowJs": true,
     "checkJs": true,
-    "removeComments": true,
+    "strict": true,
+    "declaration": true,
+    "emitDeclarationOnly": true, // use esbuild
     "newLine": "lf",
-    "strict": true
+    "removeComments": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
   }
 }

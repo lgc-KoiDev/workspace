@@ -20,3 +20,7 @@
   name: yakumo/publish
 - id: 1cvvzj
   name: yakumo/run
+- id: 1cvvzj
+  name: yakumo-commit
+- id: 27m8vg
+  name: yakumo/run
