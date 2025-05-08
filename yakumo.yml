@@ -1,5 +1,4 @@
-- id: 0efn93
-  name: yakumo
+- name: yakumo
   config:
     pipeline:
       build:
@@ -8,20 +7,12 @@
         - client
       clean:
         - tsc --clean
-- id: f4k9km
-  name: yakumo-esbuild
-- id: 9gko9c
-  name: yakumo-tsc
-- id: 4ktm4r
-  name: '@koishijs/client/lib'
-- id: ebb9wv
-  name: yakumo/upgrade
-- id: p6svq1
-  name: yakumo/publish
-- id: 1cvvzj
-  name: yakumo/run
-- id: 27m8vg
-  name: yakumo/run
+- name: yakumo-esbuild
+- name: yakumo-tsc
+- name: '@koishijs/client/lib'
+- name: yakumo/upgrade
+- name: yakumo/publish
+- name: yakumo/run
 - name: yakumo-commit
   config:
     push: true
