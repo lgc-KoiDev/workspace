@@ -45,7 +45,7 @@ export function apply(ctx: Context, config: Config) {
         logger.info(`${path} | pushing...`)
         await git.push()
       } else {
-        logger.info(`${path} | no changes to push`)
+        logger.info(`${path} | no staged commits`)
       }
     }
   }
