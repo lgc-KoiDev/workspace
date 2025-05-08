@@ -42,7 +42,7 @@
     "format": "prettier -cw .",
     "lint": "eslint .",
     "sync": "git pull && git submodule foreach --recursive git pull && yarn",
-    "u": "yakumo commit --push"
+    "u": "yakumo commit"
   },
   "dependencies": {
     "@cordisjs/plugin-http": "^0.6.3",
