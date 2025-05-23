@@ -88,7 +88,7 @@ export function apply(ctx: Context, config: Config) {
       logger.info(`collected ${paths.length} workspaces`)
 
       const push: boolean = ctx.yakumo.argv.push ?? config.push
-      const msg = ctx.yakumo.argv._[0] || config.defaultMessage
+      const msg = ctx.yakumo.argv.m || ctx.yakumo.argv.message || config.defaultMessage
       const retries: number = ctx.yakumo.argv.retries ?? config.retries
 
       const results = await Promise.all(
@@ -112,6 +112,7 @@ export function apply(ctx: Context, config: Config) {
     {
       boolean: ['push'],
       number: ['retries'],
+      string: ['m', 'message'],
     },
   )
 }
