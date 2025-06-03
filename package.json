@@ -48,6 +48,7 @@
     "@cordisjs/plugin-http": "^0.6.3",
     "@koishijs/plugin-actions": "^0.0.2",
     "@koishijs/plugin-adapter-satori": "^1.5.1",
+    "@koishijs/plugin-adapter-telegram": "4.5.10",
     "@koishijs/plugin-admin": "^2.0.0-beta.4",
     "@koishijs/plugin-analytics": "^2.0.6",
     "@koishijs/plugin-bind": "^1.5.1",
@@ -113,5 +114,8 @@
     "yakumo-upgrade": "^0.3.6",
     "yakumo-version": "^0.3.4",
     "yml-register": "^1.2.5"
+  },
+  "resolutions": {
+    "@satorijs/core@npm:^4.5.0": "patch:@satorijs/core@npm%3A4.5.0#~/.yarn/patches/@satorijs-core-npm-4.5.0-22b9079270.patch"
   }
 }
