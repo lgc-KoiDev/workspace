@@ -1,0 +1,39 @@
+diff --git a/lib/index.cjs b/lib/index.cjs
+index b93a56be62bc5a8f3db99b7417d06232742bbe53..5822e60cd6214c57922760f298d3a9cad6735351 100644
+--- a/lib/index.cjs
++++ b/lib/index.cjs
+@@ -397,6 +397,8 @@ var HTTP = class _HTTP extends import_cordis.Service {
+     return socket;
+   }
+   async file(url, options = {}) {
++    const config = this.resolveConfig()
++    url = this.resolveURL(url, config).toString()
+     const task = await this.ctx.serial(this, "http/file", url, options);
+     if (task) return task;
+     const capture = /^data:([\w/.+-]+);base64,(.*)$/.exec(url);
+diff --git a/lib/index.js b/lib/index.js
+index 180244f0909446ccea69f170c626b5d426f73aab..250c6cd4e34c21e86285b2beca796269f4036eda 100644
+--- a/lib/index.js
++++ b/lib/index.js
+@@ -364,6 +364,8 @@ var HTTP = class _HTTP extends Service {
+     return socket;
+   }
+   async file(url, options = {}) {
++    const config = this.resolveConfig()
++    url = this.resolveURL(url, config).toString()
+     const task = await this.ctx.serial(this, "http/file", url, options);
+     if (task) return task;
+     const capture = /^data:([\w/.+-]+);base64,(.*)$/.exec(url);
+diff --git a/src/index.ts b/src/index.ts
+index 33531443b70ce6bc1da80c1155c0b43765b4bea6..72ef813778641f21bcba8156a3156021fcddb1b6 100644
+--- a/src/index.ts
++++ b/src/index.ts
+@@ -411,6 +411,8 @@ export class HTTP extends Service {
+   }
+ 
+   async file(this: HTTP, url: string, options: FileOptions = {}): Promise<FileResponse> {
++    const config = this.resolveConfig()
++    url = this.resolveURL(url, config).toString()
+     const task = await this.ctx.serial(this, 'http/file', url, options)
+     if (task) return task
+     // https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
