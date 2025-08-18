@@ -42,8 +42,8 @@
   },
   "devDependencies": {
     "@types/yargs": "^17.0.33",
-    "esbuild": "^0.25.6",
-    "typescript": "^5.8.3",
+    "esbuild": "^0.25.9",
+    "typescript": "^5.9.2",
     "yakumo": "^1.0.0"
   }
 }
