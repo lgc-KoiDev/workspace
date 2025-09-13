@@ -95,7 +95,7 @@
     "@koishijs/scripts": "^4.6.1",
     "@satorijs/element": "^3.1.8",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
-    "@types/node": "^24.3.1",
+    "@types/node": "^24.3.3",
     "@unocss/eslint-plugin": "^66.5.1",
     "cross-env": "^10.0.0",
     "esbuild": "^0.25.9",
